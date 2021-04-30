@@ -362,6 +362,12 @@ a:hover {
     z-index: 2;
 }
 
+.bg-modif {
+    background-color: rgba(49, 42, 28, 1);
+    margin:  0 250px;
+    padding: 20px 0;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(49, 42, 28, 1);
     padding: 40px 40px 40px 40px;
 }
 
