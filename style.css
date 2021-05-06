@@ -369,6 +369,20 @@ a:hover {
     padding: 20px 0;
 }
 
+.mini-description {
+    font-size: 22px;
+}
+
+.citation {
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.partenaire { 
+    color: white;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -654,8 +668,8 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -709,7 +723,19 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px ;
+    margin-bottom: 10px;
 }
+
+.logo-social {
+    width: 25%;
+
+}
+
+
 
 h2 {
     font-size: 22px;
@@ -778,11 +804,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ae603d;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -830,6 +856,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.partenaire { 
+    color: white;
 }
 
 @media (max-width: 1024px) {
@@ -1039,6 +1069,11 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .logo-social {
+        width: 50%;
+        margin: 10px 0;
     }
 }
 
